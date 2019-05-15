@@ -39,7 +39,7 @@
             // 
             this.textBoxTask1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTask1.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBoxTask1.Location = new System.Drawing.Point(38, 73);
+            this.textBoxTask1.Location = new System.Drawing.Point(287, 44);
             this.textBoxTask1.Name = "textBoxTask1";
             this.textBoxTask1.Size = new System.Drawing.Size(184, 20);
             this.textBoxTask1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             this.textBoxTask1Instructions.AutoSize = true;
             this.textBoxTask1Instructions.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTask1Instructions.Location = new System.Drawing.Point(32, 38);
+            this.textBoxTask1Instructions.Location = new System.Drawing.Point(281, 9);
             this.textBoxTask1Instructions.Name = "textBoxTask1Instructions";
             this.textBoxTask1Instructions.Size = new System.Drawing.Size(225, 32);
             this.textBoxTask1Instructions.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             // btnAddNumber
             // 
-            this.btnAddNumber.Location = new System.Drawing.Point(38, 99);
+            this.btnAddNumber.Location = new System.Drawing.Point(287, 70);
             this.btnAddNumber.Name = "btnAddNumber";
             this.btnAddNumber.Size = new System.Drawing.Size(67, 22);
             this.btnAddNumber.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // btnDisplay
             // 
-            this.btnDisplay.Location = new System.Drawing.Point(38, 127);
+            this.btnDisplay.Location = new System.Drawing.Point(375, 70);
             this.btnDisplay.Name = "btnDisplay";
             this.btnDisplay.Size = new System.Drawing.Size(96, 26);
             this.btnDisplay.TabIndex = 3;
@@ -81,9 +81,9 @@
             // listBoxArray
             // 
             this.listBoxArray.FormattingEnabled = true;
-            this.listBoxArray.Location = new System.Drawing.Point(38, 166);
+            this.listBoxArray.Location = new System.Drawing.Point(287, 102);
             this.listBoxArray.Name = "listBoxArray";
-            this.listBoxArray.Size = new System.Drawing.Size(205, 264);
+            this.listBoxArray.Size = new System.Drawing.Size(184, 264);
             this.listBoxArray.TabIndex = 4;
             this.listBoxArray.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -91,7 +91,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(915, 450);
             this.Controls.Add(this.listBoxArray);
             this.Controls.Add(this.btnDisplay);
             this.Controls.Add(this.btnAddNumber);
